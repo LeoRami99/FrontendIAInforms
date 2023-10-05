@@ -1,6 +1,6 @@
+'use client'
 import Link from "next/link"
 import './style.css'
-import { useRouter } from 'next/router'
 import { usePathname} from 'next/navigation'
 // obtener el param donde se encuentra la url
 export default function navbar({...props}){
@@ -8,7 +8,7 @@ export default function navbar({...props}){
     // use next router for get path
     return(
         // Creation for navbar component with tailwindcss
-        <nav className="flex items-center justify-between flex-wrap navbar-background p-6 sticky">
+        <nav className="flex items-center justify-between flex-wrap navbar-background p-6">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <span className="font-semibold text-xl tracking-tight">IA Inform</span>
             </div>

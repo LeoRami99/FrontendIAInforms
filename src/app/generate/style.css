@@ -1,0 +1,17 @@
+.titulo-ia{
+    font-size:3rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.titulo-ia > span{
+    background: rgb(111,102,254);
+    background: linear-gradient(164deg, rgba(111,102,254,1) 0%, rgba(206,178,233,1) 100%);  
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}

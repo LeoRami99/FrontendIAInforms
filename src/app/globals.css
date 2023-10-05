@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,8 +18,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background-color: #000000;
-
-
+    font-family: 'Quicksand', sans-serif !important;
+    background: rgb(8,4,73);
+    background: linear-gradient(164deg, rgba(8,4,73,1) 0%, rgba(48,3,91,1) 100%); 
 }
